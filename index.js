@@ -1,10 +1,8 @@
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
-//Miss Code
 var randomImageSource = "images/dice" + randomNumber1 + ".png";
 document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
 
-//My Code
 // if (randomNumber1 === 1) {
 //   document.querySelector("img.img1").setAttribute("src", "images/dice1.png");
 // } else if (randomNumber1 === 2) {
@@ -21,11 +19,9 @@ document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
 
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-//Miss Code
 var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
-//My Code
 // if (randomNumber2 === 1) {
 //   document.querySelector("img.img2").setAttribute("src", "images/dice1.png");
 // } else if (randomNumber2 === 2) {
